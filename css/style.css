@@ -1,0 +1,60 @@
+body{
+font-size:15px;
+color:#333;
+margin:20px;
+font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;
+}
+#main { border: 1px solid #CCCCCC; height: 600px; position: absolute; width: 800px; }
+#main_div { text-align:center; font-weight:bold; font-size:25px; padding:15px; width:300px; float:left; }
+#main_div2 { text-align:center; font-weight:bold; font-size:25px; padding:15px; width:300px; float:right; }
+#notes_main { width:400px; float:right; }
+#calendar_div { width: 400px; float:left; }
+#email_section { float: left; width: 370px; border: 1px solid #ccc; margin: 20px 5px; height: 110px; padding: 5px; }
+#email_address { height: 25px; width: 200px; padding: 5px; }
+#loading_send_email { margin: 5px; float: left; font-size: 20px; }
+#date_selected { margin-bottom: 2px; width: 800px; height:60px; padding-top:10px; }
+#page-wrap{
+padding-top:20px;
+padding-left:20px;
+}
+#date_text { font-size:17px; text-align: center; float:left; width:330px; }
+#search_box { font-size:17px; text-align: center; float:left; width:365px; }
+#search_box input { height: 24px; width: 200px; float: right; }
+#search_box img { margin-top:3px; cursor:pointer; float:right; }
+#search_text { display: none; }
+#notes_div{
+	float: right; font-size: 18px; margin-top: 10px; padding: 20px; text-align: justify; width: 360px; height:320px; overflow:auto; word-wrap: break-word;
+	font-family:trebuchet ms; color:#333;
+}
+#notes { font-size: 18px; overflow:auto; word-wrap: break-word; font-family:trebuchet ms; color:#333; text-align: justify; }
+#notes_edit_div{
+	float: left; margin-left: 15px;  margin-top: 70px; width: 220px;
+}
+#loading_icon { display:none; float:right; width:100px; }
+.items a,.items a:active,.items a:link,.items a:visited{
+font-size:1.2em;
+	color:#3300CC;
+	text-decoration:underline;
+	display:block;
+	margin-top:10px;
+}
+#submit, #cancel { margin-top:5px; }
+.items a:hover{
+	text-decoration:none;	
+}
+.brief{
+	font-size:0.8em;
+	padding-left:10px;
+}
+.long{
+	font-size:0.8em;
+	padding-left:10px;
+}
+
+table.week_days td { border-collapse: collapse; display: table-cell; font-size: 0.9em; font-weight: bold; text-align: center; text-decoration: none;
+	font-size: 0.9em; border: 0 none; padding: 1.2em; color:#222222; }
+table.calendar td span { border: 1px solid #D3D3D3; color: #333; font-weight: bold; display: block; padding: 1.2em; text-align: center;    text-decoration: none; border-collapse: collapse; font-size: 0.9em; background-color:#F9F9F9; }
+table.calendar td span:hover { cursor:pointer; }
+table.cal_nav { width:340px; }
+table.cal_nav td { color: #333; font-weight: bold; display: table-cell; padding: 1.2em; text-align: center;    text-decoration: none; border-collapse: collapse; font-size: 0.9em; }
+table.cal_nav td a { text-decoration:none; }
