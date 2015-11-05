@@ -1,10 +1,12 @@
 # Work-Diary
-Log your day to day work at office
 
 Log all of your day-to-day work at office, with this tool.
-It just requires PHP 5.2+, no need of any database.
+Features include add/edit entries, search entries, email the entire data to a user.
 All your entries are stored in an xml file (events.xml).
+It uses Swiftmailer library to send email with the xml file attached.
+
+Setup:
+It just requires PHP 5.2+, no need of any database.
 
 Configuration:
-
 Edit config.php file to suit your requirements.
