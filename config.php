@@ -1,10 +1,10 @@
 <?php
-$username = "shasi.dulipalla";
-$password = "Password54";
-$default_to_email = 'shasi.dulipalla@yash.com';
+$username = "test_user";
+$password = "test_password";
+$default_to_email = 'admin@example.com';
 
-$from_email = 'shashi.phpdev@gmail.com';
-$from_name = 'Shashi Kanth';
-$gmail_username = 'shashi.phpdev';
-$gmail_password = 'sashi.99DEV.mesha.*';
+$from_email = 'tester@example.com';
+$from_name = 'Site Admin';
+$gmail_username = 'gmail_username';
+$gmail_password = 'gmail_password';
 ?>
