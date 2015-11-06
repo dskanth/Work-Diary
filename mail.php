@@ -18,7 +18,7 @@ if(isset($_POST['send_email']) && $_POST['send_email'] == 1 && isset($_POST['sen
 	
 	$contains = implode(" or ", $week_search_timestamps);
 	//echo $week_search_timestamps; exit;
-	$mail_body = 'Weekly Work Report:<br><br>';
+	$mail_body = 'Weekly Work:<br><br>';
 	
 	$xml=simplexml_load_file('events.xml'); 
 	$nodes = $xml->xpath("//notes[$contains]");
@@ -45,7 +45,7 @@ if(isset($_POST['send_email']) && $_POST['send_email'] == 1 && isset($_POST['sen
 
 	$mailer = Swift_Mailer::newInstance($transporter);
 
-	$message = Swift_Message::newInstance('Work Status Report')
+	$message = Swift_Message::newInstance('Weekly Work Status Report')
 	  ->setFrom(array($from_email => $from_name))
 	  ->setTo(array($to_email))
 	  ->setBody($mail_body);

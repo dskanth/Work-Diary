@@ -152,7 +152,7 @@ echo '</tr></table>';
 </div>
 
 <div id="email_section">
-<label><b>Send Work Report as Email: </b></label><br><br>
+<label><b>Send Weekly Work Report as Email: </b></label><br><br>
 <input type="text" id="email_address" name="email_address" value="<?php echo $default_to_email; ?>" placeholder="Enter email">
 &nbsp;&nbsp;<input type="button" id="send_email" name="send_email" value="Send Email" onClick="send_data_email()">
 <br><p id="loading_send_email"></p>
