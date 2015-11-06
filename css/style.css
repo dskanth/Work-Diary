@@ -10,6 +10,7 @@ font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;
 #notes_main { width:400px; float:right; }
 #calendar_div { width: 400px; float:left; }
 #email_section { float: left; width: 370px; border: 1px solid #ccc; margin: 20px 5px; height: 110px; padding: 5px; }
+#send_email { padding: 5px; }
 #email_address { height: 25px; width: 200px; padding: 5px; }
 #loading_send_email { margin: 5px; float: left; font-size: 20px; }
 #date_selected { margin-bottom: 2px; width: 800px; height:60px; padding-top:10px; }
