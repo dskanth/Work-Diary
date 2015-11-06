@@ -186,7 +186,7 @@ function send_data_email() {
 			  },
 			  success: function(data) {
 				  //console.log(data);
-				  $("#notes_div").html(data);
+				  
 				  if(data == 1) {
 					  $("#loading_send_email").css("color", "green");
 					  $("#loading_send_email").html('Mail sent!');
